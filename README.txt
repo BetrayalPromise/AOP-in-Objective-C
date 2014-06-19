@@ -1,4 +1,4 @@
-AOP in Objective-C
+#AOP in Objective-C
 
 This library enables functionality similar to AOP (Aspect Oriented Programming) for Objective-C. 
 Proxy classes can be created (by wrapping the original instances in an instance of AOPProxy) that
@@ -11,7 +11,7 @@ a specified thread.
 If you use this library I would be happy to hear about it :) – so please drop a mail to Szilveszter Molnar ( moszi@innoli.com ).
 
 For a simple example check this:
-
+```objc
 - (void) addInterceptor:(NSInvocation *) i {
     NSLog(@"ADD intercepted.");
 }
@@ -38,5 +38,5 @@ For a simple example check this:
     
     [testArray release];
     
-    
 }
+```
